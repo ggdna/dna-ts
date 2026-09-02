@@ -9,15 +9,30 @@ import { describe, expect, it } from 'vitest';
 
 
 // dna-ts is the TypeScript ecosystem layer: it carries the delta on top
-// of dna-base, never a copy of it. These checks pin that shape down —
-// the layer once held a full materialized copy of dna-base, which made
-// every base change invisible to consumers until it was copied again.
+// of the ggdna topic layers, never a copy of them. These checks pin that
+// shape down — the layer once held a full materialized copy of its
+// parent, which made every parent change invisible to consumers until it
+// was copied again.
 
-const baseDnaRoot = 'node_modules/@tssuite/dna-base/dna';
+/// The parents this layer builds on, as declared in dna/_dna.json.
+const parentLayers = [
+  '@ggdna/dna-readme',
+  '@ggdna/dna-guides',
+  '@ggdna/dna-translate',
+  '@ggdna/dna-index',
+  '@ggdna/dna-blog',
+  '@ggdna/dna-install',
+  '@ggdna/dna-vscode',
+  '@ggdna/dna-clean-code',
+  '@ggdna/dna-gg',
+];
+
+const parentDnaRoots = parentLayers.map((p) => `node_modules/${p}/dna`);
 
 /**
  * Lists every file below [root], as paths relative to [root].
- * @param root - Folder to walk; a missing folder yields an empty list.
+ * @param root - Folder to walk; it has to exist, so a parent that was
+ * never installed fails the check instead of passing it silently.
  * @returns The relative file paths, sorted.
  */
 function filesBelow(root: string): string[] {
@@ -76,8 +91,8 @@ function readJsonc(path: string): Record<string, unknown> {
 }
 
 describe('the dna-ts layer', () => {
-  it('carries only its own delta, never a copy of dna-base', () => {
-    const base = new Set(filesBelow(baseDnaRoot));
+  it('carries only its own delta, never a copy of a parent', () => {
+    const base = new Set(parentDnaRoots.flatMap(filesBelow));
     // `_dna.json` and `_generated.json` are the layer's own bookkeeping,
     // not inherited content — every layer carries both.
     const bookkeeping = ['_dna.json', '_generated.json'];
@@ -89,7 +104,7 @@ describe('the dna-ts layer', () => {
   it('joins its extensions into the inherited ones', () => {
     const overrides = readJsonc('dna/dot-vscode/extensions.overrides.json');
     // `+` appends and deduplicates; a plain `recommendations` would drop
-    // everything dna-base recommends.
+    // everything the parent layers recommend.
     expect(Object.keys(overrides)).toEqual(['recommendations+']);
 
     const instance = readJsonc('.vscode/extensions.json');
@@ -112,7 +127,7 @@ describe('the dna-ts layer', () => {
     }
 
     // Objects deep-merge: the ESLint save action arrives without
-    // displacing the actions dna-base declares.
+    // displacing the actions the parent layers declare.
     expect(instance['editor.codeActionsOnSave']).toEqual({
       'source.fixAll': 'always',
       'source.organizeImports': 'always',
@@ -120,9 +135,8 @@ describe('the dna-ts layer', () => {
     });
   });
 
-  it('declares dna-base as its only layer', () => {
+  it('declares the ggdna topic layers as its parents', () => {
     const config = readJsonc('dna/_dna.json');
-    expect(config.role).toBe('dna');
-    expect(config.layers).toEqual(['@tssuite/dna-base']);
+    expect(config.layers).toEqual(parentLayers);
   });
 });

@@ -12,4 +12,9 @@ minimumReleaseAge: 1440
 # does not apply to them.
 minimumReleaseAgeExclude:
   - '@tssuite/*'
+  - '@ggdna/*'
   - '@carat-ds/*'
+overrides:
+  "@ggdna\/dna-helix": link:../dna_helix
+  "@tssuite\/helix-js": link:../helix-js
+  "@ggdna\/dna-ggdna": link:../dna_ggdna

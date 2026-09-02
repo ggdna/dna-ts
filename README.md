@@ -1,9 +1,9 @@
 # dna-ts
 
-The DNA for all of our TypeScript projects. Builds on
-[base_dna](https://github.com/ggsuite/base_dna) and adds the
+The DNA for all of our TypeScript projects. Builds on the ggdna topic layers — see
+[dna_ggdna](https://github.com/ggdna/dna_ggdna) for the set — and adds the
 TypeScript-specific layer, inherited via
-[gg_dna](https://github.com/ggsuite/gg_dna):
+[helix-js](https://github.com/ggdna/helix-js):
 
 - `dna/dot-vscode/settings.overrides.json` — TS/ESLint editor settings
   merged into the base settings
@@ -24,19 +24,18 @@ incomplete.
 ## Usage
 
 ```bash
-pnpm add -D dna-ts @tssuite/helix-js
-gg_dna init
+pnpm add -D @tssuite/dna-ts @tssuite/helix-js
+helix init
 ```
 
-The placed spec instantiates and verifies the DNA on every test run
-(base_dna is pulled in transitively). The engine runs via
-`@tssuite/helix-js` — the gg_dna engine compiled to WebAssembly.
+The placed spec instantiates and verifies the DNA on every test run (the
+topic layers are pulled in transitively). The engine runs via
+`@tssuite/helix-js` — the helix engine compiled to WebAssembly.
 
 ## Development
 
 `role: "dna"` in `dna/_dna.json`: the `dna/` folder is authored by hand.
 The repo instantiates its own DNA — run `pnpm test` after changes; commit
 first (a file the DNA would overwrite must not carry uncommitted work).
-During development `gg_localize_refs` points the `@tssuite/dna-base`
-dependency at the local base_dna checkout; the DNA config itself never
-holds paths.
+During development `gg_localize_refs` points the layer dependencies at the
+local checkouts; the DNA config itself never holds paths.
