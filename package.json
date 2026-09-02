@@ -26,31 +26,31 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@ggdna/dna-readme": "^0.1.0",
-    "@ggdna/dna-guides": "^0.1.0",
-    "@ggdna/dna-translate": "^0.1.0",
-    "@ggdna/dna-index": "^0.1.0",
     "@ggdna/dna-blog": "^0.1.0",
-    "@ggdna/dna-install": "^0.1.0",
-    "@ggdna/dna-vscode": "^0.1.0",
     "@ggdna/dna-clean-code": "^0.1.0",
-    "@ggdna/dna-gg": "^0.1.1"
+    "@ggdna/dna-gg": "^0.1.2",
+    "@ggdna/dna-guides": "^0.1.0",
+    "@ggdna/dna-index": "^0.1.0",
+    "@ggdna/dna-install": "^0.1.0",
+    "@ggdna/dna-readme": "^0.1.0",
+    "@ggdna/dna-translate": "^0.1.0",
+    "@ggdna/dna-vscode": "^0.1.0"
   },
   "devDependencies": {
     "@tssuite/helix-js": "^0.0.1",
-    "@types/node": "^26.2.0",
-    "@typescript-eslint/eslint-plugin": "^8.67.0",
-    "@typescript-eslint/parser": "^8.67.0",
-    "eslint": "^10.8.1",
-    "eslint-plugin-jsdoc": "^64.1.0",
+    "@types/node": "^26.4.1",
+    "@typescript-eslint/eslint-plugin": "^8.69.0",
+    "@typescript-eslint/parser": "^8.69.0",
+    "eslint": "^10.9.1",
+    "eslint-plugin-jsdoc": "^64.3.3",
     "eslint-plugin-tsdoc": "^0.5.2",
-    "globals": "^17.9.0",
+    "globals": "^17.12.0",
     "prettier": "^3.9.6",
     "read-pkg": "^10.1.0",
     "typescript": "~6.0.3",
-    "typescript-eslint": "^8.67.0",
-    "vite": "^8.2.1",
-    "vitest": "^4.1.10"
+    "typescript-eslint": "^8.69.0",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11"
   },
   "engines": {
     "node": ">=22.14.0"
