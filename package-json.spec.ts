@@ -32,9 +32,20 @@ describe('package.json', () => {
   });
 
   it('depends on the DNA it builds upon', () => {
-    expect(Object.keys(json.dependencies ?? {})).toContain(
-      '@tssuite/dna-base',
-    );
+    // The individual ggdna topic layers, which replaced the deprecated
+    // dna-base monolith. Regular dependencies, so npm installs them
+    // transitively for every consumer of this layer.
+    expect(Object.keys(json.dependencies ?? {}).sort()).toEqual([
+      '@ggdna/dna-blog',
+      '@ggdna/dna-clean-code',
+      '@ggdna/dna-gg',
+      '@ggdna/dna-guides',
+      '@ggdna/dna-index',
+      '@ggdna/dna-install',
+      '@ggdna/dna-readme',
+      '@ggdna/dna-translate',
+      '@ggdna/dna-vscode',
+    ]);
   });
 
   it('is an ES module package', () => {
