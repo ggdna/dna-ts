@@ -4,17 +4,21 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@tssuite/dna-base': link:../dna_base
+  '@tssuite/helix-js': link:../helix-js
+
 importers:
 
   .:
     dependencies:
       '@tssuite/dna-base':
-        specifier: ^0.0.0
-        version: 0.0.0
+        specifier: link:../dna_base
+        version: link:../dna_base
     devDependencies:
       '@tssuite/helix-js':
-        specifier: ^0.0.1
-        version: 0.0.1
+        specifier: link:../helix-js
+        version: link:../helix-js
       '@types/node':
         specifier: ^26.2.0
         version: 26.2.0
@@ -234,14 +238,6 @@ packages:
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
-
-  '@tssuite/dna-base@0.0.0':
-    resolution: {integrity: sha512-mMeNevokrSh42Ubz+4pq/bdX8TXOfy/p/F3C/ex8peBNDDcY0ta6uI46mfaSUvPAP5QR3Y7Ulr0nffCGdXnH/g==}
-    engines: {node: '>=22'}
-
-  '@tssuite/helix-js@0.0.1':
-    resolution: {integrity: sha512-kqIeT4PxJ09LIe1+KrWWCV89B6dMx+W29DUHFBokdlvUmXyOQkGPIRsVoJ9jJCAguI5gQYYH+3u/NUna/hHZxQ==}
-    engines: {node: '>=22'}
 
   '@types/chai@5.2.3':
     resolution: {integrity: sha512-Mw558oeA9fFbv65/y4mHtXDs9bPnFMZAL/jxdPFUpOHHIXX91mcgEHbS5Lahr+pwZFR8A7GQleRWeI6cGFC2UA==}
@@ -1180,10 +1176,6 @@ snapshots:
   '@sindresorhus/base62@1.0.0': {}
 
   '@standard-schema/spec@1.1.0': {}
-
-  '@tssuite/dna-base@0.0.0': {}
-
-  '@tssuite/helix-js@0.0.1': {}
 
   '@types/chai@5.2.3':
     dependencies:

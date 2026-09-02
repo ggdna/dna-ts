@@ -13,3 +13,6 @@ minimumReleaseAge: 1440
 minimumReleaseAgeExclude:
   - '@tssuite/*'
   - '@carat-ds/*'
+overrides:
+  "@tssuite\/dna-base": link:../dna_base
+  "@tssuite\/helix-js": link:../helix-js
