@@ -5,7 +5,21 @@
   "version": 1,
   "role": "dna",
 
-  // The parent DNA. Declared as a regular dependency in package.json, so
-  // npm installs it transitively for every consumer.
-  "layers": ["@tssuite/dna-base"]
+  // The parent DNA: the individual ggdna topic layers, which replace the
+  // deprecated @tssuite/dna-base monolith. Declared as regular
+  // dependencies in package.json, so npm installs them transitively for
+  // every consumer. Not @ggdna/dna-ggdna and not @ggdna/dna-helix: this
+  // layer carries the TypeScript topic, the authoring topic is not part
+  // of it.
+  "layers": [
+    "@ggdna/dna-readme",
+    "@ggdna/dna-guides",
+    "@ggdna/dna-translate",
+    "@ggdna/dna-index",
+    "@ggdna/dna-blog",
+    "@ggdna/dna-install",
+    "@ggdna/dna-vscode",
+    "@ggdna/dna-clean-code",
+    "@ggdna/dna-gg"
+  ]
 }
