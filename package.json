@@ -37,12 +37,12 @@
     "@ggdna/dna-vscode": "^0.1.0"
   },
   "devDependencies": {
-    "@tssuite/helix-js": "^0.0.1",
+    "@tssuite/helix-js": "^0.2.0",
     "@types/node": "^26.4.1",
     "@typescript-eslint/eslint-plugin": "^8.69.0",
     "@typescript-eslint/parser": "^8.69.0",
     "eslint": "^10.9.1",
-    "eslint-plugin-jsdoc": "^64.3.3",
+    "eslint-plugin-jsdoc": "^64.3.4",
     "eslint-plugin-tsdoc": "^0.5.2",
     "globals": "^17.12.0",
     "prettier": "^3.9.6",

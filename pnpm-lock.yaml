@@ -4,11 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  '@ggdna/dna-helix': link:../dna_helix
-  '@tssuite/helix-js': link:../helix-js
-  '@ggdna/dna-ggdna': link:../dna_ggdna
-
 importers:
 
   .:
@@ -42,8 +37,8 @@ importers:
         version: 0.1.0
     devDependencies:
       '@tssuite/helix-js':
-        specifier: link:../helix-js
-        version: link:../helix-js
+        specifier: ^0.2.0
+        version: 0.2.0
       '@types/node':
         specifier: ^26.4.1
         version: 26.4.1
@@ -57,8 +52,8 @@ importers:
         specifier: ^10.9.1
         version: 10.9.1
       eslint-plugin-jsdoc:
-        specifier: ^64.3.3
-        version: 64.3.3(eslint@10.9.1)(typescript@6.0.3)
+        specifier: ^64.3.4
+        version: 64.3.4(eslint@10.9.1)(typescript@6.0.3)
       eslint-plugin-tsdoc:
         specifier: ^0.5.2
         version: 0.5.2(eslint@10.9.1)(typescript@6.0.3)
@@ -310,6 +305,10 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
+  '@tssuite/helix-js@0.2.0':
+    resolution: {integrity: sha512-AhaLlYp5cvr1GQRWAoJchmBqVRyDAilOI/QOPfNdMpNIOskkK9eEDxUSfHTKOtRxAunF04fIbV7jxF9VeJ3qhg==}
+    engines: {node: '>=22'}
+
   '@types/chai@5.2.3':
     resolution: {integrity: sha512-Mw558oeA9fFbv65/y4mHtXDs9bPnFMZAL/jxdPFUpOHHIXX91mcgEHbS5Lahr+pwZFR8A7GQleRWeI6cGFC2UA==}
 
@@ -534,8 +533,8 @@ packages:
     resolution: {integrity: sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==}
     engines: {node: '>=12'}
 
-  eslint-plugin-jsdoc@64.3.3:
-    resolution: {integrity: sha512-MzGIg34NpwJGXvsvw8yvWy4W+Q30eHSLp7k+7eP64S88fNqyrTWt9BMJK6Fo5ySPqnPMZvTGIgj0+fgC8ZhnPw==}
+  eslint-plugin-jsdoc@64.3.4:
+    resolution: {integrity: sha512-aZZp44/yc6UTuH6U+cp1IVTTImfP2gd4JTuc+zMoB76ZI746avwbAqbdTejlKDFIYl6gBBhx3FG+jTRPZjnSXw==}
     engines: {node: ^22.22.2 || >=24.15.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
@@ -1275,6 +1274,8 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
+  '@tssuite/helix-js@0.2.0': {}
+
   '@types/chai@5.2.3':
     dependencies:
       '@types/deep-eql': 4.0.2
@@ -1535,7 +1536,7 @@ snapshots:
 
   escape-string-regexp@5.0.0: {}
 
-  eslint-plugin-jsdoc@64.3.3(eslint@10.9.1)(typescript@6.0.3):
+  eslint-plugin-jsdoc@64.3.4(eslint@10.9.1)(typescript@6.0.3):
     dependencies:
       '@es-joy/jsdoccomment': 0.95.1
       '@es-joy/resolve.exports': 1.2.0
