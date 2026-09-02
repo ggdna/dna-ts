@@ -5,16 +5,51 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@tssuite/dna-base': link:../dna_base
+  '@ggdna/dna-translate': link:../dna_translate
+  '@ggdna/dna-guides': link:../dna_guides
+  '@ggdna/dna-helix': link:../dna_helix
+  '@ggdna/dna-readme': link:../dna_readme
   '@tssuite/helix-js': link:../helix-js
+  '@ggdna/dna-index': link:../dna_index
+  '@ggdna/dna-blog': link:../dna_blog
+  '@ggdna/dna-install': link:../dna_install
+  '@ggdna/dna-vscode': link:../dna_vscode
+  '@ggdna/dna-clean-code': link:../dna_clean_code
+  '@ggdna/dna-gg': link:../dna_gg
+  '@ggdna/dna-scripts': link:../dna_scripts
+  '@ggdna/dna-ggdna': link:../dna_ggdna
 
 importers:
 
   .:
     dependencies:
-      '@tssuite/dna-base':
-        specifier: link:../dna_base
-        version: link:../dna_base
+      '@ggdna/dna-blog':
+        specifier: link:../dna_blog
+        version: link:../dna_blog
+      '@ggdna/dna-clean-code':
+        specifier: link:../dna_clean_code
+        version: link:../dna_clean_code
+      '@ggdna/dna-gg':
+        specifier: link:../dna_gg
+        version: link:../dna_gg
+      '@ggdna/dna-guides':
+        specifier: link:../dna_guides
+        version: link:../dna_guides
+      '@ggdna/dna-index':
+        specifier: link:../dna_index
+        version: link:../dna_index
+      '@ggdna/dna-install':
+        specifier: link:../dna_install
+        version: link:../dna_install
+      '@ggdna/dna-readme':
+        specifier: link:../dna_readme
+        version: link:../dna_readme
+      '@ggdna/dna-translate':
+        specifier: link:../dna_translate
+        version: link:../dna_translate
+      '@ggdna/dna-vscode':
+        specifier: link:../dna_vscode
+        version: link:../dna_vscode
     devDependencies:
       '@tssuite/helix-js':
         specifier: link:../helix-js

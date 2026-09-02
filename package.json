@@ -1,7 +1,7 @@
 {
   "name": "@tssuite/dna-ts",
   "version": "1.1.1",
-  "description": "DNA for all of our TypeScript projects - TS-specific configs and docs on top of base_dna, inherited via gg_dna.",
+  "description": "DNA for all of our TypeScript projects - TS-specific configs and docs on top of the ggdna topic layers, inherited via helix.",
   "homepage": "https://github.com/tssuite/dna-ts",
   "bugs": "https://github.com/tssuite/dna-ts/issues",
   "private": false,
@@ -26,7 +26,15 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@tssuite/dna-base": "^0.0.0"
+    "@ggdna/dna-readme": "^0.1.0",
+    "@ggdna/dna-guides": "^0.1.0",
+    "@ggdna/dna-translate": "^0.1.0",
+    "@ggdna/dna-index": "^0.1.0",
+    "@ggdna/dna-blog": "^0.1.0",
+    "@ggdna/dna-install": "^0.1.0",
+    "@ggdna/dna-vscode": "^0.1.0",
+    "@ggdna/dna-clean-code": "^0.1.0",
+    "@ggdna/dna-gg": "^0.1.1"
   },
   "devDependencies": {
     "@tssuite/helix-js": "^0.0.1",
