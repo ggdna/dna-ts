@@ -10,14 +10,6 @@
       "hash": "0x705e486e88a93125"
     },
     {
-      "name": "dna-helix",
-      "package": "@ggdna/dna-helix",
-      "ecosystem": "node",
-      "resolvedVersion": "0.1.0",
-      "via": "dna-readme",
-      "hash": "0xf0af6b5ef166ef2c"
-    },
-    {
       "name": "dna-readme",
       "package": "@ggdna/dna-readme",
       "ecosystem": "node",
@@ -85,9 +77,9 @@
       "name": "dna-scripts",
       "package": "@ggdna/dna-scripts",
       "ecosystem": "node",
-      "resolvedVersion": "0.2.0",
+      "resolvedVersion": "0.1.0",
       "via": "dna-gg",
-      "hash": "0x97a76de8c8e53fb0"
+      "hash": "0x9ee08ef13ab4c8d3"
     },
     {
       "name": "dna-gg",
@@ -127,10 +119,6 @@
     {
       "path": ".claude/skills/commit/SKILL.md",
       "hash": "0xad0e75ab4d725133"
-    },
-    {
-      "path": ".claude/skills/dna/SKILL.md",
-      "hash": "0x61be0eac3f1a662f"
     },
     {
       "path": ".claude/skills/guide/SKILL.md",
@@ -219,10 +207,6 @@
     {
       "path": "doc/guides/develop-without-ai-guide.md",
       "hash": "0xe74449f72357f23c"
-    },
-    {
-      "path": "doc/guides/dna-guide.md",
-      "hash": "0x398f21d069a6ed81"
     },
     {
       "path": "doc/guides/dna-guides-guide.md",
@@ -370,7 +354,7 @@
     },
     {
       "path": "scripts/functions/get-repo-urls.js",
-      "hash": "0xd101f8b49454b888"
+      "hash": "0x4c7b3897973acec3"
     },
     {
       "path": "scripts/functions/get-version.js",
