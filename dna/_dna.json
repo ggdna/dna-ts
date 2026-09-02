@@ -1,9 +1,7 @@
 {
   // dna-ts is a DNA package: dna/ is authored by hand and is the last
-  // layer of its own instantiation. "role": "dna" is also what makes this
-  // package usable as a layer at all — a dna/ folder alone does not.
+  // layer of its own instantiation.
   "version": 1,
-  "role": "dna",
 
   // The parent DNA: the individual ggdna topic layers, which replace the
   // deprecated @tssuite/dna-base monolith. Declared as regular
