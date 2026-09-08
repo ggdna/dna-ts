@@ -32,9 +32,8 @@ describe('package.json', () => {
   });
 
   it('depends on the DNA it builds upon', () => {
-    // The individual ggdna topic layers, which replaced the deprecated
-    // dna-base monolith. Regular dependencies, so npm installs them
-    // transitively for every consumer of this layer.
+    // The individual ggdna topic layers. Regular dependencies, so npm
+    // installs them transitively for every consumer of this layer.
     expect(Object.keys(json.dependencies ?? {}).sort()).toEqual([
       '@ggdna/dna-blog',
       '@ggdna/dna-clean-code',

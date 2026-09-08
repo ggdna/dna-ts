@@ -1,6 +1,6 @@
 {
   // TypeScript tooling of all our TypeScript projects — merged into the
-  // settings inherited from dna-base.
+  // settings inherited from dna-vscode.
 
   // #############
   // JavaScript / TypeScript
@@ -29,7 +29,7 @@
   // #############
   // ESLint
   // #############
-  // Deep-merges into dna-base's "editor.codeActionsOnSave", so the
+  // Deep-merges into dna-vscode's "editor.codeActionsOnSave", so the
   // inherited "source.fixAll" / "source.organizeImports" stay in place.
 
   "editor.codeActionsOnSave": {
