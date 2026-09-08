@@ -61,9 +61,9 @@
       "name": "dna-vscode",
       "package": "@ggdna/dna-vscode",
       "ecosystem": "node",
-      "resolvedVersion": "0.1.0",
+      "resolvedVersion": "0.2.0",
       "via": null,
-      "hash": "0x388c565943d37cae"
+      "hash": "0xa88376a88c6618fa"
     },
     {
       "name": "dna-clean-code",
@@ -74,20 +74,12 @@
       "hash": "0xacaa785dad36b047"
     },
     {
-      "name": "dna-scripts",
-      "package": "@ggdna/dna-scripts",
-      "ecosystem": "node",
-      "resolvedVersion": "0.1.0",
-      "via": "dna-gg",
-      "hash": "0x9ee08ef13ab4c8d3"
-    },
-    {
       "name": "dna-gg",
       "package": "@ggdna/dna-gg",
       "ecosystem": "node",
-      "resolvedVersion": "0.1.2",
+      "resolvedVersion": "0.2.0",
       "via": null,
-      "hash": "0xd5744033dd70c6a3"
+      "hash": "0x97c559b0151610d4"
     },
     {
       "name": "self",
@@ -153,10 +145,6 @@
       "hash": "0xad35f3cb30f549dd"
     },
     {
-      "path": ".claude/skills/scripts/SKILL.md",
-      "hash": "0xa12593aa0af31ed2"
-    },
-    {
       "path": ".claude/skills/test/SKILL.md",
       "hash": "0x9d1d85ae314437ea"
     },
@@ -175,6 +163,14 @@
     {
       "path": ".github/workflows/quick_check.yaml",
       "hash": "0xf3320fb8f530a565"
+    },
+    {
+      "path": ".prettierignore",
+      "hash": "0xca9871c5856573ee"
+    },
+    {
+      "path": ".prettierrc",
+      "hash": "0xf2be2549d1b502ae"
     },
     {
       "path": ".vscode/extensions.json",
@@ -289,10 +285,6 @@
       "hash": "0x16b48114a38e395f"
     },
     {
-      "path": "doc/guides/scripts-guide.md",
-      "hash": "0x426857c389049083"
-    },
-    {
       "path": "doc/guides/test-guide-dart.md",
       "hash": "0x0d3f63cd348a4aaa"
     },
@@ -345,52 +337,8 @@
       "hash": "0xdfd97f3804665811"
     },
     {
-      "path": "scripts/functions/current-branch.js",
-      "hash": "0xb9ebbadf45893278"
-    },
-    {
-      "path": "scripts/functions/directories.js",
-      "hash": "0x148d4ebb8aa75523"
-    },
-    {
-      "path": "scripts/functions/get-repo-urls.js",
-      "hash": "0x4c7b3897973acec3"
-    },
-    {
-      "path": "scripts/functions/get-version.js",
-      "hash": "0xfe46316558755cf2"
-    },
-    {
-      "path": "scripts/functions/is-clean-repo.js",
-      "hash": "0x8aa95ca51d9d6517"
-    },
-    {
-      "path": "scripts/functions/is-main-up-to-date.js",
-      "hash": "0xe1ab1826d0ddd039"
-    },
-    {
-      "path": "scripts/functions/pull-request-url.js",
-      "hash": "0x5398755a61a59928"
-    },
-    {
       "path": "scripts/functions/run-command.js",
       "hash": "0x085b390fcb9256ab"
-    },
-    {
-      "path": "scripts/functions/sync-folders.js",
-      "hash": "0x4f83165fd92ec49d"
-    },
-    {
-      "path": "scripts/rename-class.js",
-      "hash": "0xa9daec4f3ea514b7"
-    },
-    {
-      "path": "scripts/setup-github-repo.js",
-      "hash": "0x5907588070a580ca"
-    },
-    {
-      "path": "scripts/wait-for-pr.js",
-      "hash": "0x1360c661984b78a8"
     },
     {
       "path": "test/dna/dna.spec.ts",
