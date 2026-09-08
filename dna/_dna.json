@@ -3,10 +3,9 @@
   // layer of its own instantiation.
   "version": 1,
 
-  // The parent DNA: the individual ggdna topic layers, which replace the
-  // deprecated @tssuite/dna-base monolith. Declared as regular
-  // dependencies in package.json, so npm installs them transitively for
-  // every consumer. Not @ggdna/dna-ggdna and not @ggdna/dna-helix: this
+  // The parent DNA: the individual ggdna topic layers. Declared as
+  // regular dependencies in package.json, so npm installs them
+  // transitively for every consumer. Not @ggdna/dna-ggdna and not @ggdna/dna-helix: this
   // layer carries the TypeScript topic, the authoring topic is not part
   // of it.
   "layers": [

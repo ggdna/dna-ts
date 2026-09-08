@@ -1,6 +1,6 @@
 {
   // TypeScript/Vite tooling of all our TypeScript projects — joined into
-  // the recommendations inherited from dna-base.
+  // the recommendations inherited from dna-vscode.
   "recommendations+": [
     "antfu.vite",
     "christian-kohler.npm-intellisense",
