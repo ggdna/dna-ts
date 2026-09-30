@@ -26,18 +26,18 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@ggdna/dna-blog": "^0.1.0",
-    "@ggdna/dna-clean-code": "^0.1.0",
-    "@ggdna/dna-gg": "^0.2.0",
-    "@ggdna/dna-guides": "^0.1.0",
-    "@ggdna/dna-index": "^0.1.0",
-    "@ggdna/dna-install": "^0.1.0",
-    "@ggdna/dna-readme": "^0.1.0",
-    "@ggdna/dna-translate": "^0.1.0",
-    "@ggdna/dna-vscode": "^0.2.0"
+    "@ggdna/dna-blog": "^0.1.1",
+    "@ggdna/dna-clean-code": "^0.1.1",
+    "@ggdna/dna-gg": "^0.5.1",
+    "@ggdna/dna-guides": "^0.1.1",
+    "@ggdna/dna-index": "^0.1.2",
+    "@ggdna/dna-install": "^0.1.2",
+    "@ggdna/dna-readme": "^0.1.1",
+    "@ggdna/dna-translate": "^0.1.1",
+    "@ggdna/dna-vscode": "^0.2.1"
   },
   "devDependencies": {
-    "@tssuite/helix-js": "^0.2.1",
+    "@tssuite/helix-js": "^0.3.0",
     "@types/node": "^26.4.1",
     "@typescript-eslint/eslint-plugin": "^8.69.0",
     "@typescript-eslint/parser": "^8.69.0",
