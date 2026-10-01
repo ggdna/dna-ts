@@ -1,6 +1,6 @@
 {
   "name": "@tssuite/dna-ts",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "DNA for all of our TypeScript projects - TS-specific configs and docs on top of the ggdna topic layers, inherited via helix.",
   "homepage": "https://github.com/tssuite/dna-ts",
   "bugs": "https://github.com/tssuite/dna-ts/issues",
@@ -28,7 +28,7 @@
   "dependencies": {
     "@ggdna/dna-blog": "^0.1.1",
     "@ggdna/dna-clean-code": "^0.1.1",
-    "@ggdna/dna-gg": "^0.5.1",
+    "@ggdna/dna-gg": "^0.6.0",
     "@ggdna/dna-guides": "^0.1.1",
     "@ggdna/dna-index": "^0.1.2",
     "@ggdna/dna-install": "^0.1.2",
@@ -42,7 +42,7 @@
     "@typescript-eslint/eslint-plugin": "^8.71.0",
     "@typescript-eslint/parser": "^8.71.0",
     "eslint": "^10.11.0",
-    "eslint-plugin-jsdoc": "^65.0.0",
+    "eslint-plugin-jsdoc": "^65.0.1",
     "eslint-plugin-tsdoc": "^0.5.4",
     "globals": "^17.12.0",
     "prettier": "^3.9.9",
@@ -50,7 +50,7 @@
     "typescript": "~6.0.3",
     "typescript-eslint": "^8.71.0",
     "vite": "^8.3.1",
-    "vitest": "^5.0.2"
+    "vitest": "^5.0.3"
   },
   "engines": {
     "node": ">=22.14.0"
