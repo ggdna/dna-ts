@@ -5,7 +5,7 @@ description: Checks whether documentation is out of sync between English and Ger
 
 <!--
 @license
-Copyright (c) ggsuite
+Copyright (c) ggdna
 
 Use of this source code is governed by terms that can be
 found in the LICENSE file in the root of this package.
@@ -26,7 +26,8 @@ Report three groups:
 - German files without an English counterpart
 - pairs whose newer side changed after the older one, from `git log -1`
 
-Cover the blog the same way: `blog/<year>` against `blog/de/<year>`.
+Cover the blog the same way: `doc/blog/<yyyy>` against
+`doc/de/blog/<yyyy>`.
 
 Stop here and report when every pair is complete and current — there is
 nothing to translate.

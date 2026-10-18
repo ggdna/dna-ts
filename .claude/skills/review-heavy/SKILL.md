@@ -5,7 +5,7 @@ description: Thorough code review of the current changes. Use when the user asks
 
 <!--
 @license
-Copyright (c) ggsuite
+Copyright (c) ggdna
 
 Use of this source code is governed by terms that can be
 found in the LICENSE file in the root of this package.

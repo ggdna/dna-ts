@@ -1,6 +1,6 @@
 <!--
 @license
-Copyright (c) ggsuite
+Copyright (c) ggdna
 
 Use of this source code is governed by terms that can be
 found in the LICENSE file in the root of this package.
@@ -34,6 +34,10 @@ package. Read that one first; this only fills in the specifics.
 - Reset shared state in `setUp`
 - Release external resources in `tearDown`
 - Put reusable setup into a local closure inside `main()`
+
+## Start from the example
+
+- `final user = GgUser.example(age: 17);`
 
 ## Prefer real types over mocks
 
