@@ -21,6 +21,17 @@ instantiated (`dna/dot-vscode/…` → `.vscode/…`). Without the escape
 `dart pub publish` drops them, and the layer would reach pub consumers
 incomplete.
 
+## Variables
+
+- `dnaCopyrightHolder` — the name in the license header of every file
+- `dnaCompany`, `dnaGitOrg`, `dnaGitOrgUrl` — the organization
+- `dnaGitQuickCheckPipelineName` — the name of the quick check pipeline
+- `dnaJiraPrefix` — the prefix of a ticket id
+
+The topic layers require these in every layer listing them. This layer
+sets them to `ggdna` for its own repo and passes the duty on: a layer
+listing it sets its own values in its own `dna/_vars.json`.
+
 ## Usage
 
 ```bash
