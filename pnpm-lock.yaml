@@ -4,6 +4,10 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@tssuite/helix-js': link:../helix-js
+  '@ggdna/dna-ggdna': link:../dna_ggdna
+
 importers:
 
   .:
@@ -37,8 +41,8 @@ importers:
         version: 0.2.1
     devDependencies:
       '@tssuite/helix-js':
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: link:../helix-js
+        version: link:../helix-js
       '@types/node':
         specifier: ^26.6.3
         version: 26.6.3
@@ -319,10 +323,6 @@ packages:
   '@sindresorhus/base62@1.0.0':
     resolution: {integrity: sha512-TeheYy0ILzBEI/CO55CP6zJCSdSWeRtGnHy8U8dWSUH4I68iqTsy7HkMktR4xakThc9jotkPQUXT4ITdbV7cHA==}
     engines: {node: '>=18'}
-
-  '@tssuite/helix-js@0.3.0':
-    resolution: {integrity: sha512-CMMgTKYzgrAUStGsxXOE4seDs6XR+I/eMzQ+O4/95H/WeFk6Tf7/EOQlT6Zb/Z50sk9QJpXRU/Zj4Zy0QoiSaA==}
-    engines: {node: '>=22'}
 
   '@types/chai@5.2.3':
     resolution: {integrity: sha512-Mw558oeA9fFbv65/y4mHtXDs9bPnFMZAL/jxdPFUpOHHIXX91mcgEHbS5Lahr+pwZFR8A7GQleRWeI6cGFC2UA==}
@@ -1301,8 +1301,6 @@ snapshots:
   '@rolldown/pluginutils@1.0.1': {}
 
   '@sindresorhus/base62@1.0.0': {}
-
-  '@tssuite/helix-js@0.3.0': {}
 
   '@types/chai@5.2.3':
     dependencies:
