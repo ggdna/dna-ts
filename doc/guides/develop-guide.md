@@ -1,6 +1,6 @@
 <!--
 @license
-Copyright (c) ggsuite
+Copyright (c) ggdna
 
 Use of this source code is governed by terms that can be
 found in the LICENSE file in the root of this package.
@@ -35,7 +35,7 @@ Use the following skills in Claude
 ```bash
 /gg-commit
 /gg-push
-/review
+/gg-review
 /gg-publish
 /gg-cleanup
 ```

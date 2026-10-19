@@ -93,9 +93,9 @@ function readJsonc(path: string): Record<string, unknown> {
 describe('the dna-ts layer', () => {
   it('carries only its own delta, never a copy of a parent', () => {
     const base = new Set(parentDnaRoots.flatMap(filesBelow));
-    // `_dna.json` and `_generated.json` are the layer's own bookkeeping,
-    // not inherited content — every layer carries both.
-    const bookkeeping = ['_dna.json', '_generated.json'];
+    // `_dna.json`, `_generated.json` and `_vars.json` are the layer's own
+    // bookkeeping, not inherited content — every layer may carry them.
+    const bookkeeping = ['_dna.json', '_generated.json', '_vars.json'];
     const own = filesBelow('dna').filter((p) => !bookkeeping.includes(p));
 
     expect(own.filter((path) => base.has(path))).toEqual([]);

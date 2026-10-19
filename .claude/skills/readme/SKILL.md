@@ -5,7 +5,7 @@ description: Checks the README against the README guide and template and fixes w
 
 <!--
 @license
-Copyright (c) ggsuite
+Copyright (c) ggdna
 
 Use of this source code is governed by terms that can be
 found in the LICENSE file in the root of this package.

@@ -1,6 +1,6 @@
 <!--
 @license
-Copyright (c) ggsuite
+Copyright (c) ggdna
 
 Use of this source code is governed by terms that can be
 found in the LICENSE file in the root of this package.
@@ -31,6 +31,17 @@ package. Read that one first; this only fills in the specifics.
 - Return `Future<T>` from async code and handle errors with
   `try` / `catch` / `rethrow`
 - Await every future or mark it with `unawaited(…)`
+
+## Give every class an example
+
+Offer a `factory X.example({…})` with only optional parameters, falling
+back to a working value for each:
+
+```dart
+/// Creates an example user for tests and docs.
+factory GgUser.example({String? name, int? age}) =>
+    GgUser(name: name ?? 'Jane Doe', age: age ?? 42);
+```
 
 ## Comment landmarks
 
