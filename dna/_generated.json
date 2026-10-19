@@ -13,9 +13,9 @@
       "name": "dna-readme",
       "package": "@ggdna/dna-readme",
       "ecosystem": "node",
-      "resolvedVersion": "0.3.0",
+      "resolvedVersion": "0.3.1",
       "via": null,
-      "hash": "0xb8eeee4e2937ca0d"
+      "hash": "0x684889f1e0342a51"
     },
     {
       "name": "dna-guides",
@@ -79,7 +79,7 @@
       "ecosystem": "node",
       "resolvedVersion": "0.1.0",
       "via": "dna-gg",
-      "hash": "0xae24c13573219f91"
+      "hash": "0x1410874c0723c6d9"
     },
     {
       "name": "dna-gg",
@@ -155,7 +155,7 @@
     },
     {
       "path": ".claude/skills/readme/SKILL.md",
-      "hash": "0xbf195193ac2c142c"
+      "hash": "0x1efbb8544f520a99"
     },
     {
       "path": ".claude/skills/review-heavy/SKILL.md",
@@ -179,7 +179,7 @@
     },
     {
       "path": ".github/workflows/quick_check.yaml",
-      "hash": "0xf3320fb8f530a565"
+      "hash": "0xa13ab96e09a3d3bd"
     },
     {
       "path": ".prettierignore",
@@ -295,11 +295,11 @@
     },
     {
       "path": "doc/guides/readme-dna-guide.md",
-      "hash": "0x3d9ef913822ce24d"
+      "hash": "0xd959e81b2050f1d5"
     },
     {
       "path": "doc/guides/readme-guide.md",
-      "hash": "0xb5ce137a97660e94"
+      "hash": "0x328c485b370cb26f"
     },
     {
       "path": "doc/guides/test-guide-dart.md",
@@ -335,15 +335,19 @@
     },
     {
       "path": "doc/templates/readme-dna-template.md",
-      "hash": "0xf7c193a01d8fee93"
+      "hash": "0xa07ecac047ebc948"
     },
     {
       "path": "doc/templates/readme-template.md",
-      "hash": "0x507cc05b29fd6083"
+      "hash": "0x2f7579b53aaa5ccd"
     },
     {
       "path": "guides/setup-github-guide.md",
-      "hash": "0x8681f11bbfaa0c00"
+      "hash": "0xa9c2f8a55954ece1"
+    },
+    {
+      "path": "scripts/check-readme.js",
+      "hash": "0x55f9c567ea5d4de0"
     },
     {
       "path": "scripts/setup-github-repo.js",
