@@ -1,7 +1,7 @@
 {
   "name": "@tssuite/dna-ts",
   "version": "2.0.0",
-  "description": "DNA for all of our TypeScript projects - TS-specific configs and docs on top of the ggdna topic layers, inherited via helix.",
+  "description": "Gives a TypeScript repo the ggdna topic layers plus the TypeScript editor settings and the DNA test spec.",
   "homepage": "https://github.com/tssuite/dna-ts",
   "bugs": "https://github.com/tssuite/dna-ts/issues",
   "private": false,
