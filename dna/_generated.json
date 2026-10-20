@@ -77,17 +77,17 @@
       "name": "dna-github",
       "package": "@ggdna/dna-github",
       "ecosystem": "node",
-      "resolvedVersion": "0.1.0",
+      "resolvedVersion": "0.1.1",
       "via": "dna-gg",
-      "hash": "0xae24c13573219f91"
+      "hash": "0xf541b93b3dc7995d"
     },
     {
       "name": "dna-gg",
       "package": "@ggdna/dna-gg",
       "ecosystem": "node",
-      "resolvedVersion": "0.11.0",
+      "resolvedVersion": "0.12.0",
       "via": null,
-      "hash": "0x0c681b9f487d5439"
+      "hash": "0x80b4e958c7ac9afb"
     },
     {
       "name": "self",
@@ -135,7 +135,7 @@
     },
     {
       "path": ".claude/skills/gg-ticket/SKILL.md",
-      "hash": "0xe5f827904be72c00"
+      "hash": "0xbad0fb03b46e951f"
     },
     {
       "path": ".claude/skills/gg/SKILL.md",
@@ -231,7 +231,7 @@
     },
     {
       "path": "doc/guides/for-ai/ai-dev-guide.md",
-      "hash": "0x8167358db28b6a1f"
+      "hash": "0x6c987855b8294571"
     },
     {
       "path": "doc/guides/for-ai/ai-review-guide.md",
@@ -302,6 +302,10 @@
       "hash": "0xb5ce137a97660e94"
     },
     {
+      "path": "doc/guides/setup-github-guide.md",
+      "hash": "0x836d4ca942a58b9c"
+    },
+    {
       "path": "doc/guides/test-guide-dart.md",
       "hash": "0x3b640cf745410ddf"
     },
@@ -340,10 +344,6 @@
     {
       "path": "doc/templates/readme-template.md",
       "hash": "0x507cc05b29fd6083"
-    },
-    {
-      "path": "guides/setup-github-guide.md",
-      "hash": "0x8681f11bbfaa0c00"
     },
     {
       "path": "scripts/setup-github-repo.js",
