@@ -15,8 +15,8 @@ importers:
         specifier: ^0.2.1
         version: 0.2.1
       '@ggdna/dna-gg':
-        specifier: ^0.12.0
-        version: 0.12.0
+        specifier: ^0.13.0
+        version: 0.13.0
       '@ggdna/dna-guides':
         specifier: ^0.2.0
         version: 0.2.0
@@ -141,8 +141,8 @@ packages:
     resolution: {integrity: sha512-EGTBhFi/Q37jLeNXhlaz39OAijQsOXQEo5QGX7TpgyJ7hrjx9+XlwwIsJYwrI0kDMKuRy5TAK1jmMVcf1WTR5Q==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-gg@0.12.0':
-    resolution: {integrity: sha512-lH3NLyUogf5Mp0pPNEd4A8OC/+X1vytgFnxWNNFAxUZKwm9COOqWJTGHhMMPFGjQVF6PFuBkxGjlEFxycZGW0g==}
+  '@ggdna/dna-gg@0.13.0':
+    resolution: {integrity: sha512-NjUXfomLN71I6FKcBo3qP/eaRWttTKP2iBgs6QrNdBew+XcQwj4e7/aenc0RlZhRuhUE47IUVvnLlwPaX19JJw==}
     engines: {node: '>=22'}
 
   '@ggdna/dna-github@0.1.1':
@@ -1196,7 +1196,7 @@ snapshots:
 
   '@ggdna/dna-clean-code@0.2.1': {}
 
-  '@ggdna/dna-gg@0.12.0':
+  '@ggdna/dna-gg@0.13.0':
     dependencies:
       '@ggdna/dna-github': 0.1.1
       '@ggdna/dna-index': 0.2.0
