@@ -85,9 +85,9 @@
       "name": "dna-gg",
       "package": "@ggdna/dna-gg",
       "ecosystem": "node",
-      "resolvedVersion": "0.12.0",
+      "resolvedVersion": "0.13.0",
       "via": null,
-      "hash": "0x80b4e958c7ac9afb"
+      "hash": "0x5cf663c108f9dc04"
     },
     {
       "name": "self",
@@ -105,6 +105,18 @@
   "baseVersion": "1.13.0",
   "baseHash": "0x6883da335b415f9d",
   "instances": [
+    {
+      "path": ".claude/hooks/pm-prompts.json",
+      "hash": "0x988e344de6ee6200"
+    },
+    {
+      "path": ".claude/hooks/pm-prompts.mjs",
+      "hash": "0xd579ad4abeb87732"
+    },
+    {
+      "path": ".claude/settings.json",
+      "hash": "0x6c6b768c3e99e867"
+    },
     {
       "path": ".claude/skills/blog/SKILL.md",
       "hash": "0x9d1bc995f32bf04e"
@@ -215,7 +227,7 @@
     },
     {
       "path": "doc/guides/develop-guide.md",
-      "hash": "0xd34231caa0a6b6b6"
+      "hash": "0x1b76fff0c07ce199"
     },
     {
       "path": "doc/guides/develop-without-ai-guide.md",
@@ -275,7 +287,7 @@
     },
     {
       "path": "doc/guides/install-guide/install-gg-workspace-guide.md",
-      "hash": "0x048ad440918e31a6"
+      "hash": "0xc7ac96b4e652bc40"
     },
     {
       "path": "doc/guides/install-guide/install-github-cli-guide.md",
