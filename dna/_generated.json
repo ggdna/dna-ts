@@ -69,9 +69,9 @@
       "name": "dna-clean-code",
       "package": "@ggdna/dna-clean-code",
       "ecosystem": "node",
-      "resolvedVersion": "0.2.1",
+      "resolvedVersion": "0.2.2",
       "via": null,
-      "hash": "0xe22a90f5db73ee20"
+      "hash": "0x7c836197d11ccd60"
     },
     {
       "name": "dna-github",
@@ -215,7 +215,7 @@
     },
     {
       "path": "doc/guides/code-guide-dart.md",
-      "hash": "0x94be0f1d6a3889f6"
+      "hash": "0xf4a6f37890fd494c"
     },
     {
       "path": "doc/guides/code-guide-typescript.md",
@@ -223,7 +223,7 @@
     },
     {
       "path": "doc/guides/code-guide.md",
-      "hash": "0x6ad7187aa587bdcf"
+      "hash": "0x567df7126f67a27d"
     },
     {
       "path": "doc/guides/develop-guide.md",
@@ -319,7 +319,7 @@
     },
     {
       "path": "doc/guides/test-guide-dart.md",
-      "hash": "0x3b640cf745410ddf"
+      "hash": "0x472f1ce80b63f736"
     },
     {
       "path": "doc/guides/test-guide-typescript.md",
