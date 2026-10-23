@@ -69,9 +69,9 @@
       "name": "dna-clean-code",
       "package": "@ggdna/dna-clean-code",
       "ecosystem": "node",
-      "resolvedVersion": "0.2.1",
+      "resolvedVersion": "0.2.2",
       "via": null,
-      "hash": "0xe22a90f5db73ee20"
+      "hash": "0x7c836197d11ccd60"
     },
     {
       "name": "dna-github",
@@ -85,9 +85,9 @@
       "name": "dna-gg",
       "package": "@ggdna/dna-gg",
       "ecosystem": "node",
-      "resolvedVersion": "0.13.0",
+      "resolvedVersion": "1.0.0",
       "via": null,
-      "hash": "0x5cf663c108f9dc04"
+      "hash": "0x713474ca27c6bebc"
     },
     {
       "name": "self",
@@ -111,7 +111,7 @@
     },
     {
       "path": ".claude/hooks/pm-prompts.mjs",
-      "hash": "0xd579ad4abeb87732"
+      "hash": "0x988aed96a8073727"
     },
     {
       "path": ".claude/settings.json",
@@ -131,7 +131,7 @@
     },
     {
       "path": ".claude/skills/gg-commit/SKILL.md",
-      "hash": "0xdb7a268397facfc4"
+      "hash": "0x7fbe4b075588fc4d"
     },
     {
       "path": ".claude/skills/gg-publish/SKILL.md",
@@ -143,11 +143,11 @@
     },
     {
       "path": ".claude/skills/gg-review/SKILL.md",
-      "hash": "0x09df48b6f6bf1de6"
+      "hash": "0x9f7bbbe511238684"
     },
     {
       "path": ".claude/skills/gg-ticket/SKILL.md",
-      "hash": "0xbad0fb03b46e951f"
+      "hash": "0xb2dad955568f3b99"
     },
     {
       "path": ".claude/skills/gg/SKILL.md",
@@ -215,7 +215,7 @@
     },
     {
       "path": "doc/guides/code-guide-dart.md",
-      "hash": "0x94be0f1d6a3889f6"
+      "hash": "0xf4a6f37890fd494c"
     },
     {
       "path": "doc/guides/code-guide-typescript.md",
@@ -223,7 +223,7 @@
     },
     {
       "path": "doc/guides/code-guide.md",
-      "hash": "0x6ad7187aa587bdcf"
+      "hash": "0x567df7126f67a27d"
     },
     {
       "path": "doc/guides/develop-guide.md",
@@ -243,7 +243,7 @@
     },
     {
       "path": "doc/guides/for-ai/ai-dev-guide.md",
-      "hash": "0x6c987855b8294571"
+      "hash": "0x3709ef7fd6c66bb1"
     },
     {
       "path": "doc/guides/for-ai/ai-review-guide.md",
@@ -319,7 +319,7 @@
     },
     {
       "path": "doc/guides/test-guide-dart.md",
-      "hash": "0x3b640cf745410ddf"
+      "hash": "0x472f1ce80b63f736"
     },
     {
       "path": "doc/guides/test-guide-typescript.md",
