@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@ggdna/dna-blog": "^0.3.0",
-    "@ggdna/dna-clean-code": "^0.2.1",
+    "@ggdna/dna-clean-code": "^0.2.2",
     "@ggdna/dna-gg": "^1.0.0",
     "@ggdna/dna-guides": "^0.2.0",
     "@ggdna/dna-index": "^0.2.0",
