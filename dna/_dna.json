@@ -3,6 +3,10 @@
   // layer of its own instantiation.
   "version": 1,
 
+  // Published as a DNA layer: helix requires a tag on every section of
+  // dna/ markdown, so the layers above can override each one.
+  "isLayer": true,
+
   // The parent DNA: the individual ggdna topic layers. Declared as
   // regular dependencies in package.json, so npm installs them
   // transitively for every consumer. Not @ggdna/dna-ggdna and not @ggdna/dna-helix: this

@@ -23,7 +23,7 @@
   "interfaces": {
     // "<repo-a>": "why / API"
     "uses": {
-      "helix-js": "DNA engine for TypeScript, runDnaTest",
+      "helix-js": "DNA engine for TypeScript, checkDna",
       "dna-readme, dna-guides, dna-translate, dna-index, dna-blog, dna-install, dna-vscode, dna-clean-code, dna-gg": "topic layers",
     },
 

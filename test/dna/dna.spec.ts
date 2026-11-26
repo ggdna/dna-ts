@@ -1,15 +1,14 @@
-// Placed by the dna-ts DNA — instantiates and verifies this project's
-// DNA on every test run.
+// Placed by `helix init` and `helix upgrade` — checks on every test run
+// that the files this project's DNA generated are unchanged. It writes
+// nothing; `gg dna build` applies DNA updates.
 
-import { runDnaTest } from '@tssuite/helix-js';
-
+import { checkDna } from '@tssuite/helix-js';
 import { test } from 'vitest';
 
-
 test(
-  'dna is instantiated and unmodified',
+  'generated dna files are unchanged',
   async () => {
-    await runDnaTest();
+    await checkDna();
   },
   120000,
 );
